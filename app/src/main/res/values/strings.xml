@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CropInfo</string>
+
+
+    <string-array name="array_soil">
+        <item>Red Soil</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="array_dist">
+        <item>Chennai</item>
+        <item>KanayaKumari</item>
+    </string-array>
+    <string-array name="array_climate">
+        <item>summer</item>
+        <item>Winter</item>
+    </string-array>
+</resources>

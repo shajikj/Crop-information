@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".ApplyLoan">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/imagephoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        app:srcCompat="@drawable/ic_launcher_background"
+        />
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        android:text="Take Photo"
+        app:backgroundTint="#00C853" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:hint="Enter your Name"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+
+        android:hint="Enter your Address"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+    <EditText
+        android:id="@+id/fathername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:hint="Father Name"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+    <EditText
+        android:id="@+id/nationallyid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:hint="Nationally"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+    <EditText
+        android:id="@+id/accountNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:hint="Account Number"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+    <EditText
+        android:id="@+id/IdProof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:hint="Id Proof Number"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+    <EditText
+        android:id="@+id/cropName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:hint="Corp Name"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+    <EditText
+        android:id="@+id/cropduration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:hint="Corp Duration"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Gender"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="#00C853"
+        android:layout_margin="5dp"
+
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:gravity="center"
+            android:text="Male"
+            android:textSize="15dp"
+            android:layout_margin="5dp"
+            />
+        <RadioButton
+            android:id="@+id/Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:gravity="center"
+            android:text="Female"
+            android:textSize="15dp"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:hint="Loan Amount"
+        android:layout_margin="5dp"
+        app:backgroundTint="#00C853" />
+
+    <ImageView
+        android:id="@+id/imagephotolandfull"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        app:srcCompat="@drawable/ic_launcher_background"
+        />
+    <Button
+        android:id="@+id/landimagecamerafull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        android:text="Property Image Full view "
+        app:backgroundTint="#00C853" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="center"
+        android:text="Apply"
+        app:backgroundTint="#00C853" />
+</LinearLayout>
+</ScrollView>

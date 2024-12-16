@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:layout_margin="45dp"
+tools:context=".MyLoan">
+    <LinearLayout
+    android:id="@+id/applyLoan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#eeee"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:gravity="center">
+        <TextView
+        android:id="@+id/Application"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:text="Application Id:1232123"
+        android:textSize="15dp"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="left"
+        android:text="Name: shaji"
+        android:textSize="15dp"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:gravity="right"
+        android:text="status: Pending"
+        android:textSize="15dp"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/applyLoan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#eeee"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Application1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:gravity="left"
+            android:text="Application Id:1232454"
+            android:textSize="15dp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:gravity="left"
+            android:text="Name: Sajin"
+            android:textSize="15dp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/status1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:gravity="right"
+            android:text="status: Pending"
+            android:textSize="15dp"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

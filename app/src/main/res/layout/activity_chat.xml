@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chat">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagephoto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_below="@+id/textView"
+            android:gravity="center"
+            app:srcCompat="@drawable/ic_launcher_background"
+            />
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:gravity="center"
+            android:text="Take Corp Image"
+            app:backgroundTint="#00C853" />
+        <EditText
+            android:id="@+id/IdProof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:gravity="center"
+            android:hint="Enter your Query"
+            android:layout_margin="5dp"
+            app:backgroundTint="#00C853" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="sumbit"
+            app:backgroundTint="#00C853" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                app:srcCompat="@drawable/d1"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Question:How to Protect Your Trees and Shrubs From Fungal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Answer: Fungal pathogens wait in soil, sneak up on new plants, and even bide their time on pruning shears before seizing opportunities to strike. Once active, fungal diseases exploit plant weaknesses, leaving plants prone to more disease and insect pests. Protecting your garden with savvy culture practices and effective fungal treatment helps keep the beauty and the bounty flowing." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DATE:22/08/2024" />
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                app:srcCompat="@drawable/d2"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question; How to Protect Your Trees and Shrubs From Black spot" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Answer: Dark spots on the upper sides of leaves reveal black spot in action. Never on leaf undersides, the spots expand until the leaf is yellow and dotted with black. Like many fungal diseases, black spot must have water freely available on the plant surfaces, in droplets or as a film of water, before it can reproduce and spread. Crowded, wet conditions and overhead watering help black spot flourish." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DATE:22/08/2024" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                app:srcCompat="@drawable/d3"
+                android:layout_width="90dp"
+                android:layout_height="90dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Question:How to Protect Your Trees and Shrubs " />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="Answer:In the spring or early summer, adult female beetles lay eggs in soil. Those eggs hatch and become unattractive larvae known as white grubs. The white grubs have brown heads and feed on plant roots, often causing severe lawn damage. If disturbed, the grubs curl into a C shape. The larvae stay in the soil until the following spring, when they pupate and become adults." />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DATE:22/08/2024" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
